@@ -1,0 +1,27 @@
+Sample images for testing:
+House:
+https://ww1.prweb.com/prfiles/2015/03/02/12556168/Geneva_Q1_Facade.jpg
+Dog:
+https://www.dogsareloved.org.uk/wp-content/uploads/2016/03/Dog-Pictures.jpg
+Cat:
+https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg
+Minecraft:
+https://store-images.s-microsoft.com/image/apps.60323.14294656681058683.4d17bdd8-7026-429a-846f-cf7836bc9e56.a69e6905-8926-4a48-b243-14a039b97aae?mode=scale&q=90&h=1080&w=1920&format=jpg
+Lego:
+https://www.lego.com/cdn/cs/set/assets/blt8bd963c2fd61d3eb/60380.png?fit=bounds&format=png&width=1500&height=1500&dpr=1
+Outer space:
+https://images.hdqwalls.com/wallpapers/outerspace-4k-kg.jpg
+Amethyst:
+https://i0.wp.com/geologyscience.com/wp-content/uploads/2023/04/Amethyst-1-scaled.jpg?resize=1536%2C1097&ssl=1
+Fluorite:
+https://www.knowmastery.com/wp-content/uploads/Fluorite.jpg
+Calcite:
+https://beadage.net/wp-content/uploads/2015/04/calcite.jpg
+Quartz:
+https://cdn.britannica.com/65/134065-050-B755EEAC/Quartz-Hot-Springs-Ark.jpg
+Diamond:
+https://www.jewelrycult.com/wp-content/uploads/2016/02/diamond.jpg
+Emerald:
+https://myjewelryrepair.com/wp-content/uploads/2022/05/Single-Loose-Emerald-Gemstone-Feature-Image.png
+Sapphire:
+https://upload.wikimedia.org/wikipedia/commons/f/f9/Sapphire_Gem.jpg
