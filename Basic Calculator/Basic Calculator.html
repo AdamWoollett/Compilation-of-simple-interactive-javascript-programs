@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <h1>Basic Calculator</h1>
+    <h3><b>Specify 2 numbers to calculate then press one of the operator buttons for the mathematical result.</b></h3>
+    <div class="calculator">
+        <label>Number 1</label>
+        <input name="number1" id="number1" type="number"><br><br>
+        <label>Number 2</label>
+        <input name="number2" id="number2" type="number"><br><br>
+        <div class="buttonsgrid">
+            <button class="plus">+</button>
+            <button class="minus">-</button>
+            <button class="multiply">*</button>
+            <button class="divide">/</button>
+        </div>
+        <p id="result">Result: </p>
+    </div>
+    <script>
+        //Creating addition variable
+        const additionButton = document.querySelector(".plus");
+        additionButton.addEventListener("click",additionOperator)
+        function additionOperator(){ 
+            mathsOperator = "plus";
+            console.log(mathsOperator);
+            mathematicalOperations(additionOperator);
+        }
+        //Creating subtraction variable
+        const subtractionButton = document.querySelector(".minus");
+        subtractionButton.addEventListener("click",subtractionOperator)
+        function subtractionOperator(){ 
+            mathsOperator = "minus";
+            console.log(mathsOperator);
+            mathematicalOperations(subtractionOperator);
+        }
+        //Creating multiplication variable
+        const multiplicationButton = document.querySelector(".multiply");
+        multiplicationButton.addEventListener("click",multiplicationOperator)
+        function multiplicationOperator(){ 
+            mathsOperator = "multiply";
+            console.log(mathsOperator);
+            mathematicalOperations(multiplicationOperator);
+        }
+        //Creating division variable
+        const divisionButton = document.querySelector(".divide");
+        divisionButton.addEventListener("click",divisionOperator)
+        function divisionOperator(){ 
+            mathsOperator = "divide";
+            console.log(mathsOperator);
+            mathematicalOperations(divisionOperator);
+        }
+        function mathematicalOperations(){
+            const number1 = parseFloat(document.getElementById("number1").value);
+            const number2 = parseFloat(document.getElementById("number2").value);
+            if(isNaN(number1) || isNaN(number2)){
+                let resultOutput = document.getElementById("result");
+                resultOutput.innerText=`Result: Please provide valid numbers for the calculator`;
+                return;
+            } else{
+                switch(mathsOperator){
+                    case "plus":
+                        let addResult = number1 + number2
+                        let addResultOutput = document.getElementById("result");
+                        addResultOutput.innerText=`Result: ${addResult}`;
+                        break;
+                    case "minus":
+                        let minusResult = number1 - number2
+                        let minusResultOutput = document.getElementById("result");
+                        minusResultOutput.innerText=`Result: ${minusResult}`;
+                        break;
+                    case "multiply":
+                        let multiplyResult = number1 * number2
+                        let multiplyResultOutput = document.getElementById("result");
+                        multiplyResultOutput.innerText=`Result: ${multiplyResult}`;
+                        break;
+                    case "divide":
+                        if(number2 === 0){
+                            let errorOutput = document.getElementById("result");
+                            errorOutput.innerText=`Result: Unable to divide by 0`;
+                            break;
+                        } else{
+                        let divideResult = number1 / number2
+                        let divideResultOutput = document.getElementById("result");
+                        divideResultOutput.innerText=`Result: ${divideResult}`;
+                        break;}
+                }
+            }
+        }
+    </script>
+</body>
+</html>
