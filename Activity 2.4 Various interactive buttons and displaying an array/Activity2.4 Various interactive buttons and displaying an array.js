@@ -54,8 +54,6 @@ switch(favPizza){
     break;
     case "Pepperoni":
     //    alert("Pepperoni");
-    //var pizzaText = document.getElementById("pizza")
-    //pizzaText.textContent = "Pepperoni"
     document.getElementById("pizza").innerHTML = favPizza;
     break;
     case "Hawaiian":
@@ -80,6 +78,4 @@ for (let i=0; i < blocks.length; i++){
     text = text + blocks[i] + "<br>";
 }
 document.getElementById("blocklist").innerHTML = text;
-/*var blockText = document.getElementById("blocklist")
-blockText.textContent = text*/
 console.log(blocks);}
