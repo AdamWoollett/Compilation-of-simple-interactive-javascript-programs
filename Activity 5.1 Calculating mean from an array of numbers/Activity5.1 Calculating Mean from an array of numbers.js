@@ -1,12 +1,11 @@
 let samples = [4.2, 5.1, 3.8, 4.7, 5.3];
-function meanCalculation(/*samples*/) {
+function meanCalculation() {
     let sum = 0;
     for (let i=0; i < samples.length; i++){
         sum += samples[i];
     }
     let average = sum/samples.length;
     console.log("Mean: ", average);
-    /*return sum/samples.length;*/
     return average;
 }
 
